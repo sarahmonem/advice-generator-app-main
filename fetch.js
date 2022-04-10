@@ -12,6 +12,6 @@ let advice = document.getElementById("adv")
   let obj = data.slip
   console.log(obj);
   adviceid.innerHTML = obj.id
-  advice.innerHTML = `" ${obj.advice} "`
+  advice.innerHTML = `${obj.advice} `
     })
   }
