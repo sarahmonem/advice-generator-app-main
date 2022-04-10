@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Advice generator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -14,7 +14,7 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+<body onload="getAdvice()">
 <main>
   <div class="card">
     <div class="card-title">
@@ -24,6 +24,11 @@
     <!-- Advice text goes here -->
     <div class="advice">
      "<p id="adv"></p>"
+    </div>
+    <img id="desktop" src="/images/pattern-divider-desktop.svg" alt="">
+    <img id="mobile" src="/images/pattern-divider-mobile.svg" alt="">
+    <div class="icon" onclick="getAdvice()">
+      <img src="/images/icon-dice.svg" alt="">
     </div>
   </div>
 </main>
