@@ -19,12 +19,11 @@ main {
   display: flex;
   flex-direction: column;
   width: 500px;
-  height: 300px;
 
   background-color: hsl(217, 19%, 24%);
   align-items: center;
 
-  padding: 20px;
+  padding: 20px 10px 60px 10px;
   margin: auto 10px;
   border-radius: 5px;
 }
