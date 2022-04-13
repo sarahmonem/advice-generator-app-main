@@ -49,7 +49,7 @@ main {
   border-radius: 50%;
   width: 25px;
   height: 25px;
-  cursor: pointer;
+  cursor: auto;
   transition: all ease 0.5s;
 }
 .icon:hover {
